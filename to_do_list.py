@@ -3,7 +3,7 @@ import json
 import os
 from datetime import date
 
-st.title("THIS IS MY 1st TO DO LIST IN STREAMLIT!")
+st.title("Afzal Memoriese!")
 st.header("\nThats Great Idea!")
 
 DATA_FILE = "clients_data.json"
@@ -29,7 +29,7 @@ if "selected_client" not in st.session_state:
 
 
 with st.sidebar:
-    st.title("LIST OF ITEMS")
+    st.title("LIST OF CLIENTS")
 
     st.subheader("Naya Client Add Karein")
     new_client = st.text_input("Client ka naam likhein")
